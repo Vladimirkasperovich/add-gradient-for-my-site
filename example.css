@@ -1,0 +1,189 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+/*-------------------------*/
+
+
+.main {
+	text-align: center;
+	height: 100%;
+	background: #ffffff;
+	background: -moz-linear-gradient(-45deg, #ffffff 58%, #ffffff 58%, #207cca 59%, #ffffff 59%, #ffffff 66%, #ffffff 66%, #207cca 67%, #207cca 67%, #ffffff 67%);
+	background: -webkit-linear-gradient(-45deg, #ffffff 58%, #ffffff 58%, #207cca 59%, #ffffff 59%, #ffffff 66%, #ffffff 66%, #207cca 67%, #207cca 67%, #ffffff 67%);
+	background: linear-gradient(135deg, #ffffff 58%, #ffffff 58%, #207cca 59%, #ffffff 59%, #ffffff 66%, #ffffff 66%, #207cca 67%, #207cca 67%, #ffffff 67%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
+}
+
+.travel {
+	font-family: Arial Narrow, sans-serif;
+	letter-spacing: 0.3em;
+	margin: 60px 0 20px 0;
+	color: #958e8e3b;
+	text-align: center;
+}
+
+.text {
+	text-align: center;
+	font-size: 20px;
+	margin: 0 150px 0 150px;
+	padding: 0 270px 35px 270px;
+	line-height: 30px;
+
+}
+
+.image {
+	margin: 0 auto;
+	height: 340px;
+	width: 500px;
+
+	border: 10px solid rgb(155, 153, 153);
+	background: url('../project/css5/img/light-man.jpg')0 0/contain no-repeat;
+
+}
+
+.text1 {
+	text-align: left;
+
+	font-size: 15px;
+	margin: 40px 80px 30px 80px;
+	padding: 0 260px 0px 260px;
+	line-height: 35px;
+
+
+}
+
+.text2 {
+	text-align: left;
+	margin: 0 70px 30px 69px;
+	padding: 0 270px 0 270px;
+	line-height: 35px;
+	font-size: 15px;
+}
+
+.list {
+	margin: 0 150px 0 0;
+	
+}
+
+.list li {
+	padding: 0 0 10px 0;
+	background: url('../project/css5/img/icons/li.svg') 34% 50% no-repeat;
+
+
+}
+
+.list .list1 {
+	font-weight: 600;
+}
+
+.list .list2 {
+	padding-right: 70px;
+	font-style: oblique;
+	color: rgb(22, 184, 179);
+}
+
+.list .list3 {
+	padding-right: 30px;
+	font-weight: 900;
+	font-size: 15px;
+}
+.list .list4{
+	color: rgb(152, 151, 149);
+	text-decoration: line-through ;
+	padding-right: 30px;
+}
+.button{
+	border-radius: 10px 10px 10px 10px;
+	
+	padding: 10px 20px 10px 0px;
+	margin:20px 650px 0 350px ;
+	border: 1px solid #000;
+	background-color: rgb(22, 184, 179) ;
+	color: #ffffff;
+}
